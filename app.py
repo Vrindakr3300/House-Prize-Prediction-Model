@@ -6,9 +6,11 @@ import os
 app = Flask(__name__)
 
 # Load trained model
-base_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(base_dir, "house_price_model.pkl")
-model = joblib.load(model_path)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "house_price_model.pkl")
+
+model = joblib.load(MODEL_PATH)
+
 
 @app.route("/")
 def home():
