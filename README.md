@@ -22,16 +22,20 @@ Developed skills in handling real-world datasets and extracting meaningful insig
 Consider expanding the model to incorporate more data sources for enhanced accuracy.
 Open to suggestions and contributions for refining the prediction model.
 
+## Project Structure
+
+```
 House Price Prediction Model/
 │
-├── app.py # Flask backend
-├── housePrizePreditiction.py # ML training & tuning script
-├── house_price_model.pkl # Saved trained model
-├── housing.csv # Dataset
-├── requirements.txt
+├── app.py                  # Flask backend
+├── housePrizePrediction.py # ML training & tuning script
+├── house_price_model.pkl   # Saved trained model
+├── housing.csv             # Dataset
+├── requirements.txt        # Dependencies
 ├── templates/
-│ └── index.html # Frontend UI
-└── venv/
+│   └── index.html          # Frontend UI
+└── venv/                   # Virtual environment
+```
 
 
 ---
