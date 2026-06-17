@@ -1,6 +1,6 @@
 # House Price Prediction Model:
 
-Developed a predictive model using machine learning to estimate house prices based on various features.
+Developed a predictive machine learning model to estimate house prices by analyzing multiple features such as location, size, and amenities, using data preprocessing, feature engineering, and model optimization techniques to improve accuracy and performance.
 
 **Tech Stack:**
 
